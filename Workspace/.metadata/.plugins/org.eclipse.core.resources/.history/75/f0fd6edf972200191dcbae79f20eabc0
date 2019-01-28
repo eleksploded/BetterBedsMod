@@ -1,0 +1,13 @@
+package com.eleksploded.betterbeds;
+
+import net.minecraft.init.Blocks;
+import net.minecraftforge.event.world.BlockEvent.PlaceEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+public class BedThing {
+	@SubscribeEvent
+	public static void place(PlaceEvent event) {
+		event.getWorld().setBlockState(event.getPos(), Blocks.BED.getDefaultState());
+		event.getWorld().scheduleBlockUpdate(event.getPos(), event.getWorld().getBlockState(event.getPos()).getBlock(), 10, 3);
+	}
+}

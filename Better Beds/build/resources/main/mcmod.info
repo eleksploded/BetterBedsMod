@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterbeds",
+  "name": "The Better Beds Mod",
+  "description": "Make Beds Great Again!",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Eleksploded"],
+  "credits": "Thanks to IAmAnAvacado for the GREAT idea",
+  "logoFile": "BedLogo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
