@@ -8,8 +8,8 @@
   "url": "",
   "updateUrl": "",
   "authorList": ["Eleksploded"],
-  "credits": "THanks to IAmAnAvacado for the GREAT idea",
-  "logoFile": "",
+  "credits": "Thanks to IAmAnAvacado for the GREAT idea",
+  "logoFile": "BedLogo.png",
   "screenshots": [],
   "dependencies": []
 }

@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="net.minecraft.world.World"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockBed"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockBed.EnumPartType"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockEndPortalFrame"/>
 </qualifiedTypeNameHistroy>

@@ -1,11 +1,9 @@
 Symbol range map extraction starting
 Processing 3 files
-startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: b55bc50783fccb160de980ec639b8406
-Cache Hit!
+startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: 9d355f4072d178cb0a6188012a317c5c
 endProcessing "com/eleksploded/betterbeds/BedThing.java"
 
-startProcessing "com/eleksploded/betterbeds/Reference.java" md5: 0828e75ca8f4b6f1e362a7de2b3e890a
-Cache Hit!
+startProcessing "com/eleksploded/betterbeds/Reference.java" md5: a8eb2b2b4763333b3c5e3072337526f7
 endProcessing "com/eleksploded/betterbeds/Reference.java"
 
 startProcessing "com/eleksploded/betterbeds/betterbeds.java" md5: fa838e3eadbf94e6388da797d3254cfa

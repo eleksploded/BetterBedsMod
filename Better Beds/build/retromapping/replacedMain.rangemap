@@ -1,63 +1,69 @@
 Symbol range map extraction starting
 Processing 3 files
-startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: b55bc50783fccb160de980ec639b8406
-Cache Hit!
+startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: 9d355f4072d178cb0a6188012a317c5c
 @|com/eleksploded/betterbeds/BedThing.java|8|34|com.eleksploded.betterbeds|package|com.eleksploded.betterbeds|(file)
 Class Start: com.eleksploded.betterbeds.BedThing
-   @|com/eleksploded/betterbeds/BedThing.java|408|416|BedThing|class|com.eleksploded.betterbeds.BedThing
+   @|com/eleksploded/betterbeds/BedThing.java|456|464|BedThing|class|com.eleksploded.betterbeds.BedThing
    Method Start: place(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V
-      @|com/eleksploded/betterbeds/BedThing.java|473|478|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
-      @|com/eleksploded/betterbeds/BedThing.java|421|435|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-      @|com/eleksploded/betterbeds/BedThing.java|456|461|place|method|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V
-      @|com/eleksploded/betterbeds/BedThing.java|462|472|PlaceEvent|class|net.minecraftforge.event.world.BlockEvent.PlaceEvent
-      @|com/eleksploded/betterbeds/BedThing.java|484|489|World|class|net.minecraft.world.World
-      @|com/eleksploded/betterbeds/BedThing.java|498|503|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
-      @|com/eleksploded/betterbeds/BedThing.java|504|512|getWorld|method|net.minecraftforge.event.world.BlockEvent|getWorld|()Lnet/minecraft/world/World;
-      @|com/eleksploded/betterbeds/BedThing.java|521|532|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|com/eleksploded/betterbeds/BedThing.java|539|545|Blocks|class|net.minecraft.init.Blocks
-      @|com/eleksploded/betterbeds/BedThing.java|546|549|BED|field|net.minecraft.init.Blocks|BED
-      @|com/eleksploded/betterbeds/BedThing.java|550|565|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
-      @|com/eleksploded/betterbeds/BedThing.java|580|593|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z
-      @|com/eleksploded/betterbeds/BedThing.java|594|599|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
-      @|com/eleksploded/betterbeds/BedThing.java|600|606|getPos|method|net.minecraftforge.event.world.BlockEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|624|637|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-      @|com/eleksploded/betterbeds/BedThing.java|638|648|getHeadPos|method|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|649|654|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
-      @|com/eleksploded/betterbeds/BedThing.java|655|661|getPos|method|net.minecraftforge.event.world.BlockEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|675|687|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|com/eleksploded/betterbeds/BedThing.java|688|696|BlockBed|class|net.minecraft.block.BlockBed
-      @|com/eleksploded/betterbeds/BedThing.java|697|701|PART|field|net.minecraft.block.BlockBed|PART
-      @|com/eleksploded/betterbeds/BedThing.java|703|724|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
-      @|com/eleksploded/betterbeds/BedThing.java|725|729|HEAD|field|net.minecraft.block.BlockBed.EnumPartType|HEAD
+      @|com/eleksploded/betterbeds/BedThing.java|521|526|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
+      @|com/eleksploded/betterbeds/BedThing.java|469|483|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com/eleksploded/betterbeds/BedThing.java|504|509|place|method|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V
+      @|com/eleksploded/betterbeds/BedThing.java|510|520|PlaceEvent|class|net.minecraftforge.event.world.BlockEvent.PlaceEvent
+      @|com/eleksploded/betterbeds/BedThing.java|532|537|World|class|net.minecraft.world.World
+      @|com/eleksploded/betterbeds/BedThing.java|546|551|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
+      @|com/eleksploded/betterbeds/BedThing.java|552|560|getWorld|method|net.minecraftforge.event.world.BlockEvent|getWorld|()Lnet/minecraft/world/World;
+      @|com/eleksploded/betterbeds/BedThing.java|569|580|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com/eleksploded/betterbeds/BedThing.java|587|593|Blocks|class|net.minecraft.init.Blocks
+      @|com/eleksploded/betterbeds/BedThing.java|594|597|BED|field|net.minecraft.init.Blocks|BED
+      @|com/eleksploded/betterbeds/BedThing.java|598|613|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/eleksploded/betterbeds/BedThing.java|627|632|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
+      @|com/eleksploded/betterbeds/BedThing.java|633|647|getPlacedBlock|method|net.minecraftforge.event.world.BlockEvent.PlaceEvent|getPlacedBlock|()Lnet/minecraft/block/state/IBlockState;
+      @|com/eleksploded/betterbeds/BedThing.java|653|659|Blocks|class|net.minecraft.init.Blocks
+      @|com/eleksploded/betterbeds/BedThing.java|660|676|END_PORTAL_FRAME|field|net.minecraft.init.Blocks|END_PORTAL_FRAME
+      @|com/eleksploded/betterbeds/BedThing.java|677|692|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/eleksploded/betterbeds/BedThing.java|695|707|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/eleksploded/betterbeds/BedThing.java|708|727|BlockEndPortalFrame|class|net.minecraft.block.BlockEndPortalFrame
+      @|com/eleksploded/betterbeds/BedThing.java|728|731|EYE|field|net.minecraft.block.BlockEndPortalFrame|EYE
+      @|com/eleksploded/betterbeds/BedThing.java|751|764|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z
+      @|com/eleksploded/betterbeds/BedThing.java|765|770|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
+      @|com/eleksploded/betterbeds/BedThing.java|771|777|getPos|method|net.minecraftforge.event.world.BlockEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|com/eleksploded/betterbeds/BedThing.java|796|809|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|com/eleksploded/betterbeds/BedThing.java|810|820|getHeadPos|method|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
+      @|com/eleksploded/betterbeds/BedThing.java|821|826|event|param|com.eleksploded.betterbeds.BedThing|place|(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V|event|0
+      @|com/eleksploded/betterbeds/BedThing.java|827|833|getPos|method|net.minecraftforge.event.world.BlockEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|com/eleksploded/betterbeds/BedThing.java|847|859|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com/eleksploded/betterbeds/BedThing.java|860|868|BlockBed|class|net.minecraft.block.BlockBed
+      @|com/eleksploded/betterbeds/BedThing.java|869|873|PART|field|net.minecraft.block.BlockBed|PART
+      @|com/eleksploded/betterbeds/BedThing.java|875|896|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
+      @|com/eleksploded/betterbeds/BedThing.java|897|901|HEAD|field|net.minecraft.block.BlockBed.EnumPartType|HEAD
    Method End: place(Lnet/minecraftforge/event/world/BlockEvent$PlaceEvent;)V
    Method Start: getHeadPos(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|790|793|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
-      @|com/eleksploded/betterbeds/BedThing.java|807|810|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
-      @|com/eleksploded/betterbeds/BedThing.java|761|769|BlockPos|class|net.minecraft.util.math.BlockPos
-      @|com/eleksploded/betterbeds/BedThing.java|770|780|getHeadPos|method|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|781|789|BlockPos|class|net.minecraft.util.math.BlockPos
-      @|com/eleksploded/betterbeds/BedThing.java|795|806|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|com/eleksploded/betterbeds/BedThing.java|819|840|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
-      @|com/eleksploded/betterbeds/BedThing.java|848|851|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
-      @|com/eleksploded/betterbeds/BedThing.java|852|860|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|com/eleksploded/betterbeds/BedThing.java|861|869|BlockBed|class|net.minecraft.block.BlockBed
-      @|com/eleksploded/betterbeds/BedThing.java|870|874|PART|field|net.minecraft.block.BlockBed|PART
-      @|com/eleksploded/betterbeds/BedThing.java|893|914|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
-      @|com/eleksploded/betterbeds/BedThing.java|915|919|FOOT|field|net.minecraft.block.BlockBed.EnumPartType|FOOT
-      @|com/eleksploded/betterbeds/BedThing.java|932|942|EnumFacing|class|net.minecraft.util.EnumFacing
-      @|com/eleksploded/betterbeds/BedThing.java|952|955|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
-      @|com/eleksploded/betterbeds/BedThing.java|956|964|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|com/eleksploded/betterbeds/BedThing.java|965|973|BlockBed|class|net.minecraft.block.BlockBed
-      @|com/eleksploded/betterbeds/BedThing.java|974|980|FACING|field|net.minecraft.block.BlockHorizontal|FACING
-      @|com/eleksploded/betterbeds/BedThing.java|999|1002|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
-      @|com/eleksploded/betterbeds/BedThing.java|1003|1009|offset|method|net.minecraft.util.math.BlockPos|offset|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;
-      @|com/eleksploded/betterbeds/BedThing.java|1038|1041|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
+      @|com/eleksploded/betterbeds/BedThing.java|962|965|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
+      @|com/eleksploded/betterbeds/BedThing.java|979|982|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
+      @|com/eleksploded/betterbeds/BedThing.java|933|941|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com/eleksploded/betterbeds/BedThing.java|942|952|getHeadPos|method|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
+      @|com/eleksploded/betterbeds/BedThing.java|953|961|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com/eleksploded/betterbeds/BedThing.java|967|978|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com/eleksploded/betterbeds/BedThing.java|991|1012|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
+      @|com/eleksploded/betterbeds/BedThing.java|1020|1023|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
+      @|com/eleksploded/betterbeds/BedThing.java|1024|1032|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/eleksploded/betterbeds/BedThing.java|1033|1041|BlockBed|class|net.minecraft.block.BlockBed
+      @|com/eleksploded/betterbeds/BedThing.java|1042|1046|PART|field|net.minecraft.block.BlockBed|PART
+      @|com/eleksploded/betterbeds/BedThing.java|1065|1086|BlockBed.EnumPartType|class|net.minecraft.block.BlockBed.EnumPartType
+      @|com/eleksploded/betterbeds/BedThing.java|1087|1091|FOOT|field|net.minecraft.block.BlockBed.EnumPartType|FOOT
+      @|com/eleksploded/betterbeds/BedThing.java|1104|1114|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com/eleksploded/betterbeds/BedThing.java|1124|1127|bed|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|bed|1
+      @|com/eleksploded/betterbeds/BedThing.java|1128|1136|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com/eleksploded/betterbeds/BedThing.java|1137|1145|BlockBed|class|net.minecraft.block.BlockBed
+      @|com/eleksploded/betterbeds/BedThing.java|1146|1152|FACING|field|net.minecraft.block.BlockHorizontal|FACING
+      @|com/eleksploded/betterbeds/BedThing.java|1171|1174|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
+      @|com/eleksploded/betterbeds/BedThing.java|1175|1181|offset|method|net.minecraft.util.math.BlockPos|offset|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;
+      @|com/eleksploded/betterbeds/BedThing.java|1210|1213|pos|param|com.eleksploded.betterbeds.BedThing|getHeadPos|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;|pos|0
    Method End: getHeadPos(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/math/BlockPos;
 Class End  : com.eleksploded.betterbeds.BedThing
 endProcessing "com/eleksploded/betterbeds/BedThing.java"
 
-startProcessing "com/eleksploded/betterbeds/Reference.java" md5: 0828e75ca8f4b6f1e362a7de2b3e890a
-Cache Hit!
+startProcessing "com/eleksploded/betterbeds/Reference.java" md5: a8eb2b2b4763333b3c5e3072337526f7
 @|com/eleksploded/betterbeds/Reference.java|8|34|com.eleksploded.betterbeds|package|com.eleksploded.betterbeds|(file)
 Class Start: com.eleksploded.betterbeds.Reference
    @|com/eleksploded/betterbeds/Reference.java|50|59|Reference|class|com.eleksploded.betterbeds.Reference
