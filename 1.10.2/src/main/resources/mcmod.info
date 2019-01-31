@@ -6,7 +6,7 @@
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://discord.gg/8rNczXV",
-  "updateUrl": "",
+  "updateUrl": "https://minecraft.curseforge.com/projects/the-better-beds-mod/files",
   "authorList": ["Eleksploded"],
   "credits": "Thanks to IAmAnAvacado for the GREAT idea",
   "logoFile": "BedLogo.png",
