@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterbeds",
+  "name": "The Better Beds Mod",
+  "description": "Make Beds Great Again!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://discord.gg/8rNczXV",
+  "updateUrl": "https://minecraft.curseforge.com/projects/the-better-beds-mod/files",
+  "authorList": ["Eleksploded"],
+  "credits": "Thanks to IAmAnAvacado for the GREAT idea",
+  "logoFile": "BedLogo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
