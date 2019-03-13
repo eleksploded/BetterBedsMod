@@ -1,0 +1,15 @@
+package com.eleksploded.betterbeds;
+
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+
+@Mod(Reference.ModId)
+public class betterbeds
+{
+	@SuppressWarnings("unused")
+	private void setup(final FMLCommonSetupEvent event)
+    {
+		MinecraftForge.EVENT_BUS.register(BedThing.class);
+    }
+}

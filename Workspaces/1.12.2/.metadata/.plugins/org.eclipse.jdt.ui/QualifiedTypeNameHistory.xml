@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="com.eleksploded.betterbeds.Config"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.eleksploded.betterbeds.proxy.CommonProxy"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.world.WorldEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.world.WorldEvent.Load"/>
+</qualifiedTypeNameHistroy>

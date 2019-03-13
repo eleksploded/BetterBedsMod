@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext"/>
+<fullyQualifiedTypeName name="net.minecraft.state.properties.BlockStateProperties"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.model.BlockPart"/>
+<fullyQualifiedTypeName name="net.minecraft.state.properties.BedPart"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+</qualifiedTypeNameHistroy>

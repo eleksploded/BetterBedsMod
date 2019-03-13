@@ -1,5 +1,5 @@
 #################################################
-         ForgeGradle 2.2-SNAPSHOT-9cee4a8        
+         ForgeGradle 2.2-SNAPSHOT-3966cea        
   https://github.com/MinecraftForge/ForgeGradle  
 #################################################
                Powered by MCP unknown               
@@ -9,24 +9,24 @@
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:sourceApiJava
+:sourceApiJava UP-TO-DATE
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 1 warning
 
 :processResources
 :classes
 :jar
-:sourceTestJava
+:sourceTestJava UP-TO-DATE
 :compileTestJava UP-TO-DATE
 :processTestResources UP-TO-DATE
 :testClasses UP-TO-DATE
 :test UP-TO-DATE
 :extractMcpData SKIPPED
-:extractMcpMappings
+:extractMcpMappings SKIPPED
 :getVersionJson
 :extractUserdev UP-TO-DATE
 :genSrgs SKIPPED
@@ -42,4 +42,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 14.969 secs
+Total time: 14.808 secs

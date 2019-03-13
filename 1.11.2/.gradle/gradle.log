@@ -1,7 +1,7 @@
 This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
 
 #################################################
-         ForgeGradle 2.2-SNAPSHOT-9cee4a8        
+         ForgeGradle 2.2-SNAPSHOT-3966cea        
   https://github.com/MinecraftForge/ForgeGradle  
 #################################################
                Powered by MCP unknown               
@@ -15,11 +15,11 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
+:sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 1 warning
 
-:processResources UP-TO-DATE
+:processResources
 :classes
 :jar
 :sourceTestJava UP-TO-DATE
@@ -44,4 +44,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 15.186 secs
+Total time: 30.431 secs

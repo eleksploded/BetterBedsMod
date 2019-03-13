@@ -1,25 +1,35 @@
 package com.eleksploded.betterbeds;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.block.BlockBed;
-import net.minecraft.block.BlockEndPortalFrame;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.event.world.BlockEvent.PlaceEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class BedThing {
+	
+	private static List<String> blacklist = new ArrayList<String>();
+	
 	@SubscribeEvent
-	public void place(PlaceEvent event) {
+	public static void place(PlaceEvent event) {
 		World world = event.getWorld();
-		System.out.println("Place");
+		
 		IBlockState bed = Blocks.field_150324_C.func_176223_P();
-				
-		if(event.getPlacedBlock() != Blocks.field_150378_br.func_176223_P().func_177226_a(BlockEndPortalFrame.field_176507_b, true)) {
-			world.func_175656_a(event.getPos(), bed);
-			world.func_180501_a(getHeadPos(event.getPos(), bed), bed.func_177226_a(BlockBed.field_176472_a, BlockBed.EnumPartType.HEAD), 3);
+		
+		if(!blacklist.contains(event.getPlacedBlock().func_177230_c().getRegistryName().toString())) {
+			if(Config.hardcore) {
+				world.func_175656_a(event.getPos(), Blocks.field_150357_h.func_176223_P());
+			} else {
+				world.func_175656_a(event.getPos(), bed);
+				world.func_180501_a(getHeadPos(event.getPos(), bed), bed.func_177226_a(BlockBed.field_176472_a, BlockBed.EnumPartType.HEAD), 3);
+			}
 		}
 	}
 	
@@ -30,5 +40,13 @@ public class BedThing {
 	        return pos.func_177972_a(facing);
 	    }
 	    return pos;
+	}
+	
+	@SubscribeEvent
+	public static void load(WorldEvent.Load event) {
+		for(String string : Config.blacklist) {
+			System.out.println(string);
+			blacklist.add(string);
+		}
 	}
 }

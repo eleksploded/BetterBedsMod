@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CommonProxy.java&apos; to &apos;Better Beds/src/main/java/com.eleksploded.betterbeds.proxy&apos;&#x0A;- Original project: &apos;Better Beds&apos;&#x0A;- Destination element: &apos;Better Beds/src/main/java/com.eleksploded.betterbeds.proxy&apos;&#x0A;- Original element: &apos;com.eleksploded.betterbeds.proxy.CommonProxy.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.eleksploded.betterbeds.proxy" element1="/src\/main\/java&lt;com.eleksploded.betterbeds.proxy{CommonProxy.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1552495578218" units="1" version="1.0"/>
+</session>

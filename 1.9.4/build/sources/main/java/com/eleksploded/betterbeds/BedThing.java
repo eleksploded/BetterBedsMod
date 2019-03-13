@@ -1,25 +1,35 @@
 package com.eleksploded.betterbeds;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.block.BlockBed;
-import net.minecraft.block.BlockEndPortalFrame;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.event.world.BlockEvent.PlaceEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class BedThing {
+	
+	private static List<String> blacklist = new ArrayList<String>();
+	
 	@SubscribeEvent
-	public void place(PlaceEvent event) {
+	public static void place(PlaceEvent event) {
 		World world = event.getWorld();
-		System.out.println("Place");
+		
 		IBlockState bed = Blocks.BED.getDefaultState();
-				
-		if(event.getPlacedBlock() != Blocks.END_PORTAL_FRAME.getDefaultState().withProperty(BlockEndPortalFrame.EYE, true)) {
-			world.setBlockState(event.getPos(), bed);
-			world.setBlockState(getHeadPos(event.getPos(), bed), bed.withProperty(BlockBed.PART, BlockBed.EnumPartType.HEAD), 3);
+		
+		if(!blacklist.contains(event.getPlacedBlock().getBlock().getRegistryName().toString())) {
+			if(Config.hardcore) {
+				world.setBlockState(event.getPos(), Blocks.BEDROCK.getDefaultState());
+			} else {
+				world.setBlockState(event.getPos(), bed);
+				world.setBlockState(getHeadPos(event.getPos(), bed), bed.withProperty(BlockBed.PART, BlockBed.EnumPartType.HEAD), 3);
+			}
 		}
 	}
 	
@@ -30,5 +40,13 @@ public class BedThing {
 	        return pos.offset(facing);
 	    }
 	    return pos;
+	}
+	
+	@SubscribeEvent
+	public static void load(WorldEvent.Load event) {
+		for(String string : Config.blacklist) {
+			System.out.println(string);
+			blacklist.add(string);
+		}
 	}
 }

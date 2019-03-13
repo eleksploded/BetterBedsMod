@@ -1,14 +1,21 @@
 Symbol range map extraction starting
-Processing 3 files
-startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: 9d355f4072d178cb0a6188012a317c5c
-Cache Hit!
+Processing 6 files
+startProcessing "com/eleksploded/betterbeds/BedThing.java" md5: fa2e0d371ace476f8e03cb1df9bea912
 endProcessing "com/eleksploded/betterbeds/BedThing.java"
+
+startProcessing "com/eleksploded/betterbeds/Config.java" md5: 0a54900d264ad58fdd6be8910638103a
+endProcessing "com/eleksploded/betterbeds/Config.java"
 
 startProcessing "com/eleksploded/betterbeds/Reference.java" md5: a8eb2b2b4763333b3c5e3072337526f7
 Cache Hit!
 endProcessing "com/eleksploded/betterbeds/Reference.java"
 
-startProcessing "com/eleksploded/betterbeds/betterbeds.java" md5: fa838e3eadbf94e6388da797d3254cfa
-Cache Hit!
+startProcessing "com/eleksploded/betterbeds/betterbeds.java" md5: 61a656d9cbb02b384a2aa3f969e2ab41
 endProcessing "com/eleksploded/betterbeds/betterbeds.java"
+
+startProcessing "com/eleksploded/betterbeds/proxy/CommonProxy.java" md5: b4253170be1ad662e91576e122c62edd
+endProcessing "com/eleksploded/betterbeds/proxy/CommonProxy.java"
+
+startProcessing "com/eleksploded/betterbeds/proxy/ServerProxy.java" md5: 0d20c5e1416a53b43a71c5e7c14d74c6
+endProcessing "com/eleksploded/betterbeds/proxy/ServerProxy.java"
 

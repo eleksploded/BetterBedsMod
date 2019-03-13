@@ -1,0 +1,42 @@
+[03Mar2019 16:24:11.471] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_144
+[03Mar2019 16:24:11.848] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Mar2019 16:24:12.477] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--gameDir, ., --launchTarget, fmluserdevclient, --fml.forgeVersion, 25.0.59, --fml.mcpVersion, 20190213.203750, --fml.mcpMappings, snapshot_20180921-1.13, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --accessToken, ❄❄❄❄❄❄❄❄, --version, FMLDev, --assetIndex, 1.13.1, --assetsDir, /Users/nathanmartin/.gradle/caches/forge_gradle/assets, --userProperties, {}]
+[03Mar2019 16:24:14.943] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Player508
+[03Mar2019 16:24:15.724] [pool-2-thread-1/ERROR] [net.minecraftforge.fml.loading.moddiscovery.BackgroundScanHandler/SCAN]: An error occurred scanning file Mod File: /Users/nathanmartin/Dropbox/Better Beds/1.13.2/bin/main
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: Duplicate key net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget@4b2d58b9
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273) ~[?:1.8.0_144]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280) [?:1.8.0_144]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1592) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.IllegalStateException: Duplicate key net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget@4b2d58b9
+	at java.util.stream.Collectors.lambda$throwingMerger$0(Collectors.java:133) ~[?:1.8.0_144]
+	at java.util.HashMap.merge(HashMap.java:1253) ~[?:1.8.0_144]
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320) ~[?:1.8.0_144]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:1.8.0_144]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_144]
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373) ~[?:1.8.0_144]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_144]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_144]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[?:1.8.0_144]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_144]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_144]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_144]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_144]
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider.lambda$getFileVisitor$3(FMLJavaModLanguageProvider.java:98) ~[forge-1.13.2-25.0.59_mapped_snapshot_20180921-1.13-recomp.jar:25.0]
+	at net.minecraftforge.fml.loading.moddiscovery.Scanner.scan(Scanner.java:49) ~[forge-1.13.2-25.0.59_mapped_snapshot_20180921-1.13-launcher.jar:?]
+	at net.minecraftforge.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:143) ~[forge-1.13.2-25.0.59_mapped_snapshot_20180921-1.13-launcher.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_144]
+	... 3 more
+[03Mar2019 16:24:27.523] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:block' was empty after loading
+[03Mar2019 16:24:27.552] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:potion' was empty after loading
+[03Mar2019 16:24:27.552] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:biome' was empty after loading
+[03Mar2019 16:24:27.552] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:block_entity_type' was empty after loading
+[03Mar2019 16:24:27.553] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:enchantment' was empty after loading
+[03Mar2019 16:24:27.553] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:entity_type' was empty after loading
+[03Mar2019 16:24:27.553] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:item' was empty after loading
+[03Mar2019 16:24:27.553] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:mob_effect' was empty after loading
+[03Mar2019 16:24:27.553] [Client thread/ERROR] [net.minecraft.util.registry.IRegistry/]: Registry 'minecraft:sound_event' was empty after loading
+[03Mar2019 16:24:27.830] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[03Mar2019 16:24:27.926] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
