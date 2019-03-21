@@ -2,7 +2,8 @@
 
 ##1.2      
 - Added Config File      
-- Added Blacklist for bedification      
+- Added Blacklist for bedification   
+- Transfered End Portal Frame Blacklist to config instead of being hardcoded
 - Added Hardcore Mode, replaces everything with bedrock      
 
 ##1.1
