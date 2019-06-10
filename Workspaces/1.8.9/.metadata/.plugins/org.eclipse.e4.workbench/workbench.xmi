@@ -201,7 +201,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Ig4fYiWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;expanded>&#xA;&lt;category IMemento.internal.id=&quot;Errors (10 items)&quot;/>&#xA;&lt;/expanded>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_Iuk9ICWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.views.ProblemView">
@@ -293,7 +293,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ITzFoCWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Q76IUEW4EemE-rG8ab62Jw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_H5z4VyWQEemxX_hjJKhB7A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7nQZoEdREemWLtzNflf8rQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_H5z4VyWQEemxX_hjJKhB7A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ITzssCWQEemxX_hjJKhB7A" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -317,7 +317,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ITzstCWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Q79LoEW4EemE-rG8ab62Jw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_H5xcNSWQEemxX_hjJKhB7A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7nTc8EdREemWLtzNflf8rQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_H5xcNSWQEemxX_hjJKhB7A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ITzstSWQEemxX_hjJKhB7A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -712,7 +712,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_H64PUSWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.pde.runtime.LogView"/>
     </bindings>
-    <bindings xmi:id="_QjiEkEW4EemE-rG8ab62Jw" keySequence="COMMAND+CTRL+F" command="_H7EckiWQEemxX_hjJKhB7A"/>
+    <bindings xmi:id="_7NWr4UdREemWLtzNflf8rQ" keySequence="COMMAND+CTRL+F" command="_H7EckiWQEemxX_hjJKhB7A"/>
   </bindingTables>
   <bindingTables xmi:id="_H6hqByWQEemxX_hjJKhB7A" elementId="org.eclipse.ui.textEditorScope" bindingContext="_H56mASWQEemxX_hjJKhB7A">
     <bindings xmi:id="_H6iRECWQEemxX_hjJKhB7A" keySequence="COMMAND+SHIFT+ARROW_LEFT" command="_H50fbiWQEemxX_hjJKhB7A">
@@ -899,7 +899,7 @@
     <bindings xmi:id="_H6z95iWQEemxX_hjJKhB7A" keySequence="F5" command="_H51GdiWQEemxX_hjJKhB7A"/>
   </bindingTables>
   <bindingTables xmi:id="_H7FDpSWQEemxX_hjJKhB7A" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_H5NbZSWQEemxX_hjJKhB7A">
-    <bindings xmi:id="_QjiEkUW4EemE-rG8ab62Jw" keySequence="M1+W" command="_H7FDoyWQEemxX_hjJKhB7A"/>
+    <bindings xmi:id="_7NXS8EdREemWLtzNflf8rQ" keySequence="M1+W" command="_H7FDoyWQEemxX_hjJKhB7A"/>
   </bindingTables>
   <bindingTables xmi:id="_IgwjkSWQEemxX_hjJKhB7A" bindingContext="_IgwjkCWQEemxX_hjJKhB7A"/>
   <bindingTables xmi:id="_IgxKoSWQEemxX_hjJKhB7A" bindingContext="_IgxKoCWQEemxX_hjJKhB7A"/>
