@@ -1,5 +1,10 @@
 #Changelog      
 
+##1.2.1 (_1.13.2 Only_)     
+- Random Bed Colors!
+- Config option for it
+- Fixed Mod Info file
+
 ##1.2      
 - Added Config File      
 - Added Blacklist for bedification   

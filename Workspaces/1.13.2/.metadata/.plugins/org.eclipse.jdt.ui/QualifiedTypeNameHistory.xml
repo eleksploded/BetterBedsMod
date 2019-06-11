@@ -4,6 +4,12 @@
 <fullyQualifiedTypeName name="net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext"/>
 <fullyQualifiedTypeName name="net.minecraft.state.properties.BlockStateProperties"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.model.BlockPart"/>
-<fullyQualifiedTypeName name="net.minecraft.state.properties.BedPart"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.world.BlockEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.event.world.BlockEvent.EntityPlaceEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.state.properties.BedPart"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.ModLoadingContext"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.eleksploded.betterbeds.Config"/>
 </qualifiedTypeNameHistroy>

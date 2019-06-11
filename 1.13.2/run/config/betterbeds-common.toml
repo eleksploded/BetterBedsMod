@@ -1,7 +1,9 @@
 
 [General]
+	#Should we use random colored beds?
+	randomBed = true
 	#Enables/Disables hardcore mode, bedrock instead of beds
 	hardcore = false
-	#Block Blacklist for Bedification ["mod:block","mod:block"]
-	blacklist = ["minecraft:end_portal_frame","minecraft:stone"]
+	#Just requires a world reload
+	blacklist = ["minecraft:end_portal_frame", "minecraft:stone"]
 

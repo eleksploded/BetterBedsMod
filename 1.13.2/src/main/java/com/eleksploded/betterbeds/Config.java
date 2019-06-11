@@ -13,6 +13,7 @@ public class Config {
         public final ForgeConfigSpec.ConfigValue<Boolean> Hardcore;
         public final ForgeConfigSpec.ConfigValue<List<? extends String>> Blacklist;
         private static List<String> DefaultValue = new ArrayList<String>();
+        public final ForgeConfigSpec.ConfigValue<Boolean> randBed;
 
         public General(ForgeConfigSpec.Builder builder) {
         	DefaultValue.add("minecraft:end_portal_frame");
@@ -24,8 +25,13 @@ public class Config {
                     .define("hardcore", false);
             Blacklist = builder
             		.comment("Block Blacklist for Bedification [\"mod:block\",\"mod:block\"]")
+            		.comment("Just requires a world reload")
             		.translation("config.blacklist")
             		.define("blacklist", DefaultValue);
+            randBed = builder
+            		.comment("Should we use random colored beds?")
+            		.translation("config.randbed")
+            		.define("randomBed", true);
             builder.pop();
         }
     }

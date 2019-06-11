@@ -1,11 +1,13 @@
 modLoader="javafml" #mandatory
 loaderVersion="[25,)" #mandatory
-credits="Thanks IAmAnAvacado for the great idea!" #optional
 [[mods]] #mandatory
 modId="betterbeds" #mandatory
-version="1.2" #mandatory
+version="1.2.1" #mandatory
 displayName="The Better Beds Mod" #mandatory
 authors="Eleksploded" #optional
+credits="Thanks to IAmAnAvacado for the GREAT idea" #optional
+displayURL="https://discord.gg/8rNczXV"
+logoFile="BedLogo.png"
 description='''
-BEDS!!
+Make Beds Great Again!
 '''

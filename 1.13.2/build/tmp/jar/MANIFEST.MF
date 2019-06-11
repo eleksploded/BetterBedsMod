@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: 1.13.2
-Implementation-Version: 1.2
+Implementation-Version: 1.2.1
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2019-06-10T10:44:08-0700
+Implementation-Timestamp: 2019-06-11T10:36:57-0700
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 
