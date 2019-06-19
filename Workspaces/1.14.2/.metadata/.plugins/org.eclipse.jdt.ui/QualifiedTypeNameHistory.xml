@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.block.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockState"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BedBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.util.Direction"/>
+</qualifiedTypeNameHistroy>

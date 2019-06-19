@@ -12,4 +12,6 @@
 <fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.eleksploded.betterbeds.Config"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.ForgeConfigSpec.ConfigValue"/>
 </qualifiedTypeNameHistroy>

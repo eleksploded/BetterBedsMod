@@ -1,0 +1,9 @@
+
+[General]
+	#Enables/Disables hardcore mode, bedrock instead of beds
+	hardcore = false
+	#Just requires a world reload
+	blacklist = ["minecraft:end_portal_frame"]
+	#Should we use random colored beds?
+	randomBed = true
+
