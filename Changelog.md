@@ -1,6 +1,6 @@
 #Changelog      
 
-##1.2.1 (_1.13.2 Only_)     
+##1.2.1 (_1.13.2 & 1.14.2_)     
 - Random Bed Colors!
 - Config option for it
 - Fixed Mod Info file
