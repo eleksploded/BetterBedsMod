@@ -1,7 +1,5 @@
 package com.eleksploded.betterbeds;
 
-import com.eleksploded.betterbeds.proxy.CommonProxy;
-
 import net.minecraftforge.common.config.Configuration;
 
 public class Config {
@@ -17,7 +15,7 @@ public class Config {
     // Call this from CommonProxy.preInit(). It will create our config if it doesn't
     // exist yet and read the values if it does exist.
     public static void readConfig() {
-        Configuration cfg = CommonProxy.config;
+        Configuration cfg = betterbeds.config;
         try {
             cfg.load();
             initGeneralConfig(cfg);

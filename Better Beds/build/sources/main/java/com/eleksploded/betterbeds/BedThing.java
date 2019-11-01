@@ -20,6 +20,7 @@ public class BedThing {
 	@SubscribeEvent
 	public static void place(PlaceEvent event) {
 		World world = event.getWorld();
+		if(world.isRemote) { return; }
 		
 		IBlockState bed = Blocks.BED.getDefaultState();
 		
@@ -44,6 +45,7 @@ public class BedThing {
 	
 	@SubscribeEvent
 	public static void load(WorldEvent.Load event) {
+		if(event.getWorld().isRemote) { return; }
 		for(String string : Config.blacklist) {
 			System.out.println(string);
 			blacklist.add(string);

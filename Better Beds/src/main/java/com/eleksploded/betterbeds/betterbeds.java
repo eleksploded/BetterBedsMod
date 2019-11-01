@@ -1,11 +1,11 @@
 package com.eleksploded.betterbeds;
 
-import com.eleksploded.betterbeds.proxy.CommonProxy;
+import java.io.File;
 
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -13,15 +13,16 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.ModId, name = Reference.Name, version = Reference.Version)
 public class betterbeds
 {
-	
-	@SidedProxy(clientSide = "com.eleksploded.betterbeds.proxy.CommonProxy", serverSide = "com.eleksploded.betterbeds.proxy.ServerProxy")
-    public static CommonProxy proxy;
+	public static Configuration config;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
     	MinecraftForge.EVENT_BUS.register(BedThing.class);
-    	proxy.preInit(event);
+    	
+    	File directory = event.getModConfigurationDirectory();
+        config = new Configuration(new File(directory.getPath(), "betterbeds.cfg"));
+        Config.readConfig();
     }
 
     @EventHandler
@@ -32,6 +33,8 @@ public class betterbeds
     
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        proxy.postInit(event);
+        if (config.hasChanged()) {
+            config.save();
+        }
     }
 }
