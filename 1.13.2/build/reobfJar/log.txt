@@ -1,3 +1,0 @@
-Loading mappings
-0 packages, 4027 classes, 14542 fields, 26093 methods
-Remapping final jar
